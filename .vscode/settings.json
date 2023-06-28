@@ -1,0 +1,36 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "googletest.failed",
+                "settings": {
+                    "foreground": "#f00"
+                }
+            },
+            {
+                "scope": "googletest.passed",
+                "settings": {
+                    "foreground": "#0f0"
+                }
+            },
+            {
+                "scope": "googletest.run",
+                "settings": {
+                    "foreground": "#0f0"
+                }
+            }
+        ]
+    },
+    "razor.devmode": true,
+    "razor.languageServer.debug": true,
+    "razor.disabled": true,
+    "vscode-exports-autocomplete.addSpacingAroundCurlyBraces": true,
+    "files.exclude": {
+        "": true
+    },
+    "search.useGlobalIgnoreFiles": true,
+    "search.useParentIgnoreFiles": true,
+    "gtest-adapter.debugConfig": [
+        "Cloud Run: Run/Debug Locally"
+    ]
+}
